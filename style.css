@@ -9,6 +9,7 @@ body{
     height: 600px;
     background-image: url("../web-portfolio/pictures/top-banner.png");
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -20,12 +21,12 @@ body{
 
 .name-highlight{
     color:orange;
-    color
 }
 
 
 .half-width img{
-    width: 100%;
+    width: 600px;
+    height: 600px;
 }
 
 .salam{
@@ -53,11 +54,11 @@ p.about{
 }
 
 .second-layer{
-    height: 500px;
+    height: 600px;
     background-image: url("../web-portfolio/pictures/dream-bg.png");
     background-position:center right;
     background-repeat: no-repeat;
-    padding-top: 10px;
+    margin-bottom: 100px;
 }
 .resume-download-link{
     background-image: linear-gradient(45deg, tomato, crimson);
@@ -69,4 +70,30 @@ p.about{
 }
 .dream-description{
     width: 90%;
+}
+
+.third-layer{
+    height: 500px;
+    background-image: url("../web-portfolio/pictures/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.experiences{
+    box-shadow:gray 10px 20px 40px;
+    padding: 20px;
+    height: 60%;
+    width: 43%;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#full-stack{
+    border-left: solid 8px;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#ph-learner{
+    border-left: solid 8px;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }

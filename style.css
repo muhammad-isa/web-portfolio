@@ -1,0 +1,71 @@
+*{
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    margin: 0;
+}
+.first-layer{
+    height: 600px;
+    background-image: url("../web-portfolio/pictures/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+    
+}
+
+.name-highlight{
+    color:orange;
+    color
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.salam{
+    font-size: 60px;
+}
+#introduction{
+    font-size: 30px;
+}
+body h3{
+    font-weight: 700px;
+    font-size: 20x;
+    
+}
+p.about{
+    font-weight: 700;
+    
+}
+.hire-button{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 800px;
+    color: white;
+}
+
+.second-layer{
+    height: 500px;
+    background-image: url("../web-portfolio/pictures/dream-bg.png");
+    background-position:center right;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+.resume-download-link{
+    background-image: linear-gradient(45deg, tomato, crimson);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 800px;
+    color: white;
+}
+.dream-description{
+    width: 90%;
+}

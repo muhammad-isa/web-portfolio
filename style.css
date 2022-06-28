@@ -52,6 +52,10 @@ p.about{
     font-weight: 800px;
     color: white;
 }
+.hire-button:hover{
+    background-image: linear-gradient(45deg, crimson, tomato);
+    box-shadow: 2px 3px 5px gray;
+}
 
 .second-layer{
     height: 600px;
@@ -96,4 +100,8 @@ p.about{
     border-left: solid 8px;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+.resume-download-link:hover{
+    background-image: linear-gradient(45deg, crimson, tomato);
+    box-shadow: 2px 3px 5px gray;
 }
